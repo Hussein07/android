@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEGEND!"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="165dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/HUSSEIN_YASIN"
+        tools:targetApi="lollipop" />
+
+
+</LinearLayout>
